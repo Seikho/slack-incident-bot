@@ -1,4 +1,4 @@
-# Slack Serentiy Bot
+# Slack Incident Bot
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ In Slack:
 - Invite the bot to a channel in Slack
 
 ```sh
-> git clone https://github.com/bennettp123/slack-serenity-bot && cd slack-serenity-bot
+> git clone https://github.com/seikho/slack-incident-bot && cd slack-incident-bot
 
 # From the command line:
 > yarn
@@ -16,8 +16,8 @@ In Slack:
 > export SLACK_TOKEN={API TOKEN} yarn start
 
 # Using Docker:
-> docker build -t serenity .
-> docker run -dt --env SLACK_TOKEN={API TOKEN} --name serenitybot --restart=always serenity
+> docker build -t incident .
+> docker run -dt --env SLACK_TOKEN={API TOKEN} --name incidentbot --restart=always incident
 ```
 
 

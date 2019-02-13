@@ -1,14 +1,14 @@
 {
-  "name": "slack-serentiy-bot",
+  "name": "slack-incident-bot",
   "publishConfig": {
     "//": "Do not publish",
     "registry": "https://bad.registry"
   },
-  "description": "Message Based Incident Management in Slack",
+  "description": "ChatOps Incident Management in Slack",
   "version": "1.0.0",
   "author": "Carl Winkler",
   "bugs": {
-    "url": "https://github.com/seikho/slack-standup-bot/issues"
+    "url": "https://github.com/seikho/slack-incident-bot/issues"
   },
   "dependencies": {
     "node-fetch": "^1.7.3",
@@ -20,7 +20,7 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/seikho/slack-standup-bot"
+    "url": "https://github.com/seikho/slack-incident-bot"
   },
   "scripts": {
     "build": "tsc",
